@@ -29,12 +29,52 @@ body {
 	width: 100%;
 }
 
+.section-dark{
+	background-color: #8F8F8F;
+}
+
+a { 
+	color: #009CA6;
+}
+
+.masthead {
+	text-align: center;
+}
+
+.nav{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+. nav a{
+	display: block;
+	text-decoration: none;
+}
+
+.footer {
+	text-align: center;
+}	
+
 @media only screen and (min-width: 25em) {
+	.nav li{
+		display: inline-block
+	}
 
 }
 
 @media only screen and (min-width: 38em) {
+	.masthead {
+		text-align: left;
+	}
 
+	.footer { 
+		text-align: left;
+	}
+	
+	.nav-footer{ 
+		text-align: right;
+	}
 }
 
 @media only screen and (min-width: 60em) {
