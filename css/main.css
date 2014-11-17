@@ -118,7 +118,10 @@ work {
 	padding-left:24.5%
 
 	}
-
+	
+	.unit-s-1-2-top {
+	margin-top: -14%; 
+	}
 
 }
 
@@ -140,8 +143,42 @@ work {
 	padding-left:.3%;
 
 	}
+	
+	.unit-s-1-2-top {
+	margin-top: 0; 
+	}
+	
+	.unit-push-m-1-3 {
+	margin-top:-9.5%;
+	padding-left:16.5%;
+	}
+	
+	.unit-push-m-1-3-right {
+	margin-top:-9.5%;
+	padding-left:.3%;
+	}
+	
+	
+	.unit-m-1-3-top {
+	margin-top: -9.5%; 
+	}
 }
 
 @media only screen and (min-width: 60em) {
 
+		.unit-push-m-1-3 {
+	margin-top:0%;
+	padding-left:.3%;
+	}
+	
+	.unit-push-m-1-3-right {
+	margin-top:0;
+	padding-left:.3%;
+	}
+	
+	.unit-m-1-3-top {
+	margin-top: 0; 
+	}
+	
+	
 }
