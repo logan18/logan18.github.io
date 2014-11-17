@@ -47,7 +47,7 @@ a {
 	list-style-type: none;
 }
 
-. nav a{
+.nav a{
 	display: block;
 	text-decoration: none;
 }
@@ -56,26 +56,26 @@ a {
 	text-align: center;
 }	
 
-.banner { 
-	text-align: center;
+.image{
+	right: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.text{
 	position: relative;
+	bottom: 1em;
+	text-align: right;
+	padding-right: 2em;
 }
 
-.banner-img{
-	padding-top: 55.26%;
-	background: #8E8E06 url("http://placehold.it/1920x1080/8E8E06") no-repeat center center;
-	background-size: cover;
-}
-
-.intro-wrap {
-	background-color: #5D5D4B;
-	color: #fff;
+.bottom{
+	text-align: right;
+	bottom:0;
 }
 
 .container{
-	background-color: rgba(188,49,52,1.00);
-	margin:0;
-	padding:0;
+	padding-top: 4rem;
 }
 
 .piece { 
@@ -98,8 +98,22 @@ a {
 	
 }
 	
-work {
+main {
+	margin-top:5em;
 	width: 100%;
+}
+
+work {
+	background-color: #fff;
+	width: 100%;
+}
+
+about {
+	padding-top:5rem;
+}
+
+contact {
+	padding-top: 5rem;
 }
 
 @media only screen and (min-width: 25em) {
