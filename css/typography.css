@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font-family: 'Abel', sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
