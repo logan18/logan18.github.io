@@ -77,11 +77,14 @@ a {
 }
 
 .container{
+	margin:0 auto; 
+	width: 85%;
 	padding-top: 4rem;
 }
 
 .piece { 
-	width: 25%;
+position:static;
+	width: 100%;
 	float: left;
 	padding: .3%;
 	display:inline;
@@ -91,7 +94,14 @@ a {
 	-moz-transition: all .9s ease-in-out;
 }
 
+.desc{
+	position:relative;
+}
+
+
 .piece:hover{
+	background-image:url(../../../Graphic%20Design/jesus.jpg);
+	background-size:contain;
 	opacity: .5;
 	-webkkit-transition: all .9s ease-in-out;
 	-webkkit-transition: all .9s ease-in-out;
@@ -106,6 +116,7 @@ main {
 }
 
 work {
+	position: relative;
 	background-color: #fff;
 	width: 100%;
 }
@@ -123,6 +134,8 @@ contact {
 	width: 100%;
 	text-align: center;
 }	
+
+
 
 @media only screen and (min-width: 25em) {
 	.nav li{
