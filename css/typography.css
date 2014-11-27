@@ -29,7 +29,7 @@ html {
 
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
@@ -53,6 +53,7 @@ h1, .exa {
 }
 
 h2, .peta {
+	margin-top:1rem;
   font-size: 1.6018rem;
   line-height: 1.8729;
 }
