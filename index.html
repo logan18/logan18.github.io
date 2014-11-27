@@ -6,13 +6,10 @@
 <link href="css/main.css" rel="stylesheet">
 <link href="css/grid.css" rel="stylesheet">
 <link href="css/typography.css" rel="stylesheet">
-<link href="src/css/swipebox.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/component.css" rel="stylesheet" >
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 		
 <meta name="description" content="Logan Brandwood, young and creative graphic designer from Ottawa, ON.">
-
-<script src="js/modernizr.custom.js"></script>
 
 
 <!--Facebook Open Graph meta tags. Also works on Pinterest-->
@@ -39,30 +36,18 @@
 <meta name="twitter:image3" content="">
 <meta name="twitter:image4" content="">
 
-<script src="lib/jquery-2.1.0.min.js"></script>
-<script src="src/js/jquery.swipebox.js"></script>
-
-
-<script type="text/javascript">
-;( function( $ ) {
-
-	$( '.swipebox' ).swipebox();
-
-} )( jQuery );
-</script>
-
+<script src="js/modernizr.custom.js"></script>
 
 </head>
 <body>
 
-
-<header class="masthead section-dark grid">
+<header class=" masthead section-dark grid">
 	<div class="unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
 		<h1 class="push-0"><img src="http://placehold.it/200x65/CFB454/ffffff" alt="Logan Brandwood, Designer"></h1>
 	</div>
 	
-	<nav class="section-dark unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4">
-		<ul class="nav mega">
+	<nav class=" nav nav-top section-dark unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4" data-state="expanded">
+		<ul class="nav nav-top mega">
 			<li class="island-1-2"><a href="#work">Work</a></li>
 			<li class="island-1-2"><a href="#about">About</a></li>
 			<li class="island-1-2"><a href="#contact">Contact</a></li>
@@ -71,9 +56,9 @@
 
 </header>
 
-<main>
-	<p class="push-0 header-bottom">Curiosity and intuition led me here.</p>
-		<img class="image" src="http://placehold.it/1080x100/CFB454/ffffff" alt="squiggly line">
+<main> 
+		<p class="push-0 header-bottom">Curiosity and intuition led me here.</p>
+			<img class="image" src="http://placehold.it/1080x35/CFB454/ffffff" alt="squiggly line">
 
 </main>
 	
@@ -81,68 +66,39 @@
 
 		<h2 id="work"> Work </h2>
 		<div class="container">
-		
-				<a href="images/hex.png" class="swipebox" title="My Caption 1">
+				<img data-id="#piece-1" class= "piece unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
+				
 				<img class= "piece unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 			
-			<a href="images/hex2.png" class="swipebox" title="My Caption 2">
-				<img class= "piece unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
-			
-			
-			<a href="images/hex3.png" class="swipebox" title="My Caption 3">
 				<img class= "piece unit-xs-1 unit-push-s-1-2 unit-m-1-3 unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 			
-			
-			<a href="images/hex4.png" class="swipebox" title="My Caption 4">	
 				<img class= "piece unit-xs-1 unit-s-1-2-top unit-push-m-1-3 unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 			
-			
-			<a href="images/hex5.png" class="swipebox" title="My Caption 5">
 				<img class= "piece unit-xs-1 unit-s-1-2-top unit-push-m-1-3-right unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 			
-			
-			<a href="images/hex6.png" class="swipebox" title="My Caption 6">
 				<img class= "piece unit-xs-1 unit-push-s-1-2 unit-m-1-3-top unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 			
-			
-			<a href="images/hex7.png" class="swipebox" title="My Caption 7">
 				<img class= "piece unit-xs-1 unit-s-1-2-top unit-m-1-3-top unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 	
-	
-			<a href="images/hex8.png" class="swipebox" title="My Caption 7">
 				<img class= "piece unit-xs-1 unit-s-1-2-top unit-m-1-3-top unit-l-1-4" src="images/hex.png" alt="portfolio piece 1">
-			</a>
 		</div>	
-		</div>
 		
-
-<div class="first">
+		<div id="piece-1" data-state="closed" class="work-details">
+		<button class="close"> CLOSE </button>
+		
 <div id="cbp-fwslider" class="cbp-fwslider">
+
 				<ul>
-					<li><a href="#"><img class="full" src="http://placehold.it/1920x700" alt="img01"/></a></li>
-					<li><a href="#"><img class="full"src="http://placehold.it/1920x700"alt="img02"/></a></li>
-					<li><a href="#"><img class="full" src="http://placehold.it/1920x700" alt="img03"/></a></li>
-					<li><a href="#"><img class="full" src="http://placehold.it/1920x700" alt="img04"/></a></li>
-					<li><a href="#"><img class="full" src="http://placehold.it/1920x700" alt="img05"/></a></li>
+					<li><a href="#"><img class="full" src="http://placehold.it/1980x900/CFB454/666666" alt="img"></a></li>
+					<li><a href="#"><img class="full" src="http://placehold.it/1980x900/CFB454/666666" alt="img"></a></li>
+					<li><a href="#"><img class="full" src="http://placehold.it/1980x900/CFB454/666666" alt="img"></a></li>
+					<li><a href="#"><img class="full" src="http://placehold.it/1980x900/CFB454/666666" alt="img"></a></li>
+					<li><a href="#"><img class="full" src="http://placehold.it/1980x900/CFB454/666666" alt="img"></a></li>
 				</ul>
 			</div>
-			</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery.cbpFWSlider.min.js"></script>
-		<script>
-			$( function() {
-				$( '#cbp-fwslider' ).cbpFWSlider();
-
-			} );
-		</script>
 </div>
+</div>
+		
 
 
 
@@ -152,7 +108,6 @@
 	<p>I am a 20 year old Graphic Designer /  recent graduate from Algonquin College.
 After two years as a yearbook nerd in highschool, I knew my destiny was to continue being a nerd. Here I am now.</p>
 </div>
-
 
 <div class="contact">
 	<h2 id="contact">Contact</h2>
@@ -165,6 +120,7 @@ After two years as a yearbook nerd in highschool, I knew my destiny was to conti
 			<li><a href="https://www.facebook.com"> Facebook </a></li>
 		</ul>
 </div>
+
 
 
 <footer class="footer section-dark micro grid island-1-2">
@@ -182,7 +138,34 @@ After two years as a yearbook nerd in highschool, I knew my destiny was to conti
 
 </footer>
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>	
+<script src="js/jquery.cbpFWSlider.min.js"></script>
 <script src="js/main.js"> </script>
+
+<script>
+$(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1200);
+            return false;
+          }
+        }
+      });
+    });
+</script>
+
+		<script>
+			$( function() {
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+
 </body>
 </html>

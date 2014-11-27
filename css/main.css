@@ -27,10 +27,6 @@ body {
 	padding: 0;
 }
 
-ul{
-	list-style-type: none;
-}
-
 .flex {
 	display: block;
 	width: 100%;
@@ -50,11 +46,17 @@ a:hover {
 	color: #CFB454;
 }
 
-.masthead {
-	text-align: center;
+ul{
+	list-style:none;
 }
 
-.nav{
+.masthead {
+	text-align: center;
+	position:fixed;
+	z-index:10;
+	width:100%;
+}
+.nav-top{
 	margin:0;
 	padding:0;
 	list-style-type: none;
@@ -64,7 +66,6 @@ a:hover {
 	display: block;
 	text-decoration: none;
 }
-
 
 .image{
 	right: 0;
@@ -86,9 +87,10 @@ a:hover {
 
 .container{
 	margin:0 auto; 
-	width: 85%;
+	width: 75%;
 	padding-top: 4rem;
 	padding-bottom:4rem;
+	position:relative;
 }
 
 .piece { 
@@ -102,10 +104,6 @@ a:hover {
 	-moz-transition: all .9s ease-in-out;
 }
 
-.desc1{
-	background-color:rgba(204,204,204,1);
-}
-
 .piece:hover{
 	background-size:contain;
 	opacity: .5;
@@ -113,13 +111,8 @@ a:hover {
 	-webkkit-transition: all .9s ease-in-out;
 	-moz-transition: all .9s ease-in-out;
 }
-
-.piece8{
-	margin-bottom:4rem;
-}
 	
-main {
-	background-color:rgba(153,153,153,1);
+main{
 	padding-top:30%;
 	width: 100%;
 }
@@ -128,8 +121,8 @@ main {
 	width: 100%;
 	overflow: hidden;
 	background-color: #666;
-	
-
+	padding-bottom: 10rem;
+	position:relative;
 }
 
 .about {
@@ -139,23 +132,39 @@ main {
 
 .contact {
 	background-color:#CFB454
-	margin-top:0
 }
-
 
 .footer {
 	width: 100%;
 	text-align: center;
 }	
 
-.full{
-	width: 100%;
+.graphic{
+	position: relative;
+	overflow: hidden;
 }
 
-.first{
-	display: none;
+.graphic figcaption{
+	color: #fff;
+	padding: 1em;
+	position: absolute;
+	bottom: -4em;
+	transition: all 250ms ease-in;
 }
 
+.graphic:hover figcaption{
+	bottom: 0;	
+}
+
+.work-details{
+	display:none;
+	position:absolute;
+	top:10%;
+}
+
+.work-details[data-state="open"]{
+	display:block;
+}
 
 @media only screen and (min-width: 25em) {
 	.nav li{
@@ -177,7 +186,6 @@ main {
 	.unit-s-1-2-top {
 	margin-top: -14%; 
 	}
-
 	
 }
 
@@ -242,6 +250,5 @@ main {
 	.footer{
 		float: bottom;
 	}
-	
 	
 }
