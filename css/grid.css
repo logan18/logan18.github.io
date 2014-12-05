@@ -299,7 +299,12 @@
 }
 
 .unit-m-1 {
-  display: block;
+  visibility: visible;
+  width: 100%;
+}
+
+.unit-m-1-over {
+  bottom: 10;
   visibility: visible;
   width: 100%;
 }
@@ -421,10 +426,16 @@
 }
 
 .unit-l-1 {
-  display: block;
   visibility: visible;
   width: 100%;
 }
+
+.unit-l-1-over {
+
+  visibility: visible;
+  width: 100%;
+}
+
 
 .unit-offset-l-0 {
   margin-left: 0;
