@@ -183,7 +183,7 @@ main{
 	background-color: #343534;
 }
 .nav-btn[data-state="active"] {
-	background-color: #343534;
+	background-color: #ECD822;
 }
 
 .nav-toggle {
@@ -196,9 +196,17 @@ main{
 	width: 5%;
 	padding: 0;
 	margin:0;
-
 }
 
+.dropdown{
+	display: block;
+	width: 100%;
+	
+}
+
+	p{
+		font-size: 0.7em;
+	}
 
 @media only screen and (min-width: 25em) {
 	
@@ -207,7 +215,7 @@ main{
 	}
 	
 	.nav li{
-		display: inline-block
+		display: inline-block;
 	}
 	
 	.intro-wrap{
@@ -226,6 +234,10 @@ main{
 	margin-top: -14%; 
 	}
 	
+		p{
+		font-size: 1.1em;
+	}
+
 	<!---------------------------------------TOGGLE NAV------------------>
 
 	.togglenav {
@@ -233,11 +245,7 @@ main{
 		width: 100%;
 	}
 
-	.nav ul {
-		padding-top: 4em;
-		width: 100%;
-	}
-	
+
 	
 @media only screen and (min-width: 38em) {
 
@@ -295,6 +303,15 @@ main{
 	.nav-btn:visited {
 		display: none;
 	}
+	
+	.dropdown li{
+		display:none;
+	}
+	
+	.nav-toggle {
+		display: none;
+		
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -317,9 +334,8 @@ main{
 		float: bottom;
 	}
 	
-		.togglenav {
-		display: none;
-	}
+	
+	
 	
 	
 }
