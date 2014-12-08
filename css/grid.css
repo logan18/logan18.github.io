@@ -167,6 +167,10 @@
   visibility: visible;
 }
 
+unit-xs-90{
+	width: 90%;
+}
+	
 @media only screen and (min-width: 25em) {
 
 .unit-s-hidden {
@@ -278,6 +282,9 @@
   visibility: visible;
 }
 
+unit-s-90{
+	width: 90%;
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -405,6 +412,9 @@
   visibility: visible;
 }
 
+unit-m-90{
+	width: 90%;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -524,4 +534,7 @@
   visibility: visible;
 }
 
+unit-l-90{
+	width: 90%;
+}
 }
