@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+	
 html {
   font-family: 'Abel', sans-serif;
 }
@@ -58,11 +59,6 @@ h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
   margin-bottom: 0;
-}
-
-h3, .tera {
-	font-size: 1.6rem;
- 	line-height: 1.6875;
 }
 
 h4, .giga {
@@ -188,3 +184,4 @@ sub {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
 }
+
