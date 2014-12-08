@@ -24,7 +24,7 @@ html {
 }
 
 body {
-	background:url(../images/backgrounds/wood.png) fixed;
+	background:url(../images/backgrounds/wood50.png) fixed;
 	background-repeat:repeat;
 	width: 100%;
 	height:100%;
@@ -48,7 +48,6 @@ body {
 .logo{
 	width: 150px;
 	float: left;
-
 }
 
 a{ 
@@ -252,7 +251,7 @@ p{
 	}
 	
 	p, li{
-		font-size: 1.1em;
+		font-size: 1em;
 		
 	}
 
