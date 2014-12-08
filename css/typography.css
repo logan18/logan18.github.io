@@ -54,8 +54,10 @@ h1, .exa {
 
 h2, .peta {
 	margin-top:1rem;
+	margin-left: 1rem;
   font-size: 1.6018rem;
   line-height: 1.8729;
+  margin-bottom: 0;
 }
 
 h3, .tera {
