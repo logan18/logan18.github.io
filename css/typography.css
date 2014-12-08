@@ -30,7 +30,7 @@ html {
 }
 
 h1, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure,
+, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
@@ -61,8 +61,8 @@ h2, .peta {
 }
 
 h3, .tera {
-  font-size: 1.4238rem;
-  line-height: 1.0535;
+	font-size: 1.6rem;
+ 	line-height: 1.6875;
 }
 
 h4, .giga {
@@ -80,10 +80,6 @@ h6, .kilo {
   line-height: 1.5000;
 }
 
-small, .milli {
-  font-size: 0.8889rem;
-  line-height: 1.6875;
-}
 
 .micro {
   font-size: 0.7901rem;
@@ -112,10 +108,6 @@ sub {
 
 .text-right {
   text-align: right;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .normal {
