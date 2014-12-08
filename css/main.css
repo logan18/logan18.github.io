@@ -34,8 +34,6 @@ body {
 	background-size: 75% 50%;
 }
 
-
-
 .flex {
 	display: block;
 	width: 100%;
@@ -67,6 +65,7 @@ ul{
 }
 
 .masthead {
+	top:0;
 	text-align: center;
 	position:fixed;
 	z-index:1000;
@@ -124,6 +123,7 @@ ul{
 }
 	
 main{
+	margin-top:6em;
 	padding-top:30%;
 	width: 100%;
 	background-image:url(../images/graphics/nav-back.svg);
@@ -133,7 +133,7 @@ main{
 .work {
 	margin-top: 2em;
 	width: 100%;
-	background-color:rgba(82,163,149,0.15);
+	background-color: rgba(111,162,166,0.4)
 }
 
 .about {
@@ -185,7 +185,7 @@ main{
 	right: 10px;
 	height: 40px;
 	width: 46px;
-	background:white url('../images/graphics/nav-icon.svg') no-repeat center center;
+	background: #454545 url('../images/graphics/nav-icon.svg') no-repeat center center;
 	background-size: 30px;
 	text-indent: 100%;
 	white-space: nowrap;
@@ -194,10 +194,10 @@ main{
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #343534;
+	background-color: #56666A;
 }
 .nav-btn[data-state="active"] {
-	background-color: #ECD822;
+	background-color: #FFFFFF;
 }
 
 .nav-toggle {
