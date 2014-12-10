@@ -9,6 +9,12 @@ $(".close").on("click",function(){
 	
 	});
 	
+$(".closex").on("click",function(){
+	$(this).parent().attr("data-state","close");
+	
+	});
+
+	
 var navTop = document.querySelector('.nav-toggle');
 document.querySelector('.nav-btn').addEventListener('click', function (e) {
 	e.preventDefault();
