@@ -7,6 +7,20 @@
 @-webkit-viewport { width: device-width; scale:1; }
 @viewport { width: device-width; scale:1; }
 
+ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0;
+}
+
+*, *:before, *after {
+	box-sizing: inhereit;
+}
+
 html {
 	width: 100%;
 	height: 100%;
@@ -17,10 +31,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%
-}
-
-*, *:before, *after {
-	box-sizing: inhereit;
 }
 
 body {
@@ -215,17 +225,26 @@ main{
 	display: none;
 }
 
-.nav-toggle[data-state="expanded"]{display: block;}
+.nav-toggle[data-state="expanded"]{
+	display: block;
+}
 
 .close{
-	width: 50px;
+	z-index:0;
+	position:absolute;
+	width: 100%;
+	opacity:0;
 	padding: 0;
 	margin:0;
+	height: 100%;
 }
+
+
 
 .dropdown{
 	display: block;
 	width: 100%;	
+	left:0;
 }
 
 p{
@@ -278,7 +297,6 @@ h3, .tera {
 
 	.togglenav {
 		text-decoration: none;
-		width: 100%;
 	}
 	
 		h3, .tera {
@@ -361,6 +379,10 @@ h3, .tera {
 		display: none;
 		
 	}
+	
+	.togglenav{
+		display: none;
+}
 }
 
 @media only screen and (min-width: 60em) {
