@@ -218,7 +218,6 @@ h4{
 	color:rgba(179,174,146,1.00);
 }
 
-
 .footer {
 	width: 100%;
 	text-align: center;
@@ -240,7 +239,6 @@ h4{
 .work-details[data-state="open"]{
 	display:block;
 }
-
 
 <!---------------------------------------TOGGLE NAV------------------>
 
