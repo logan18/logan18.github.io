@@ -64,6 +64,7 @@ h2, .peta {
 h4, .giga {
   font-size: 1.2656rem;
   line-height: 1.1852;
+  color:rgba(92,121,129,1.00);
 }
 
 h5, .mega {
